@@ -1,0 +1,9 @@
+﻿input[type=button] {
+    width: 250px;
+    background-color: mediumaquamarine;
+    border: 1px solid darken(mediumaquamarine, 20);
+
+    &:hover {
+        background-color: darken(mediumaquamarine, 10);
+    }
+}

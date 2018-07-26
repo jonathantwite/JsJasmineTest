@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsJasmineTest", "JsJasmineTest\JsJasmineTest.csproj", "{EFDCD889-317F-431F-B472-C4ED3CC753B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsJasmineTest.Tests", "JsJasmineTest.Tests\JsJasmineTest.Tests.csproj", "{9B34546C-5F8D-489D-A47D-8D6E0F7264DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFDCD889-317F-431F-B472-C4ED3CC753B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDCD889-317F-431F-B472-C4ED3CC753B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDCD889-317F-431F-B472-C4ED3CC753B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDCD889-317F-431F-B472-C4ED3CC753B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B34546C-5F8D-489D-A47D-8D6E0F7264DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B34546C-5F8D-489D-A47D-8D6E0F7264DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B34546C-5F8D-489D-A47D-8D6E0F7264DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B34546C-5F8D-489D-A47D-8D6E0F7264DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7C54431-D660-4C0B-98D8-AB0A3BA321D3}
+	EndGlobalSection
+EndGlobal

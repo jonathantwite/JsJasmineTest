@@ -1,0 +1,10 @@
+{
+  "InheritFromParent": true,
+  "TestHarnessReferenceMode": "AMD",
+  "References": [
+    { "Path": "../../../jsjasminetest/scripts/require.js" },
+    { "Path": "../../../jsjasminetest/scripts/config.js" }
+  ],
+  "AMDBaseUrl": "../../../JsJasmineTest/Scripts/",
+  "TestFileTimeout": 10000
+}

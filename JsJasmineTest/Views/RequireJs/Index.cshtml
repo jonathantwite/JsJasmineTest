@@ -1,0 +1,11 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>Value 1: <span data-bind="text: valueOne"></span></p>
+<p>Value 2: <span data-bind="text: valueTwo"></span></p>
+<p>Total:&nbsp;&nbsp;&nbsp;<span data-bind="text: total"></span></p>
+
+@section PageScripts{
+    <script data-main="/scripts/config" src="/scripts/require.js"></script>
+}

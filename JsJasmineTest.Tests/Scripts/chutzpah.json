@@ -1,0 +1,10 @@
+﻿{
+  //"CodeCoverageExecutionMode": "Always",
+  //"CodeCoverageExcludes": [
+  //  "knockout*",
+  //  "require.*"
+  //],
+  "References": [
+    { "Path": "../../jsjasminetest/scripts/knockout-3.4.2.js" }
+  ]
+}

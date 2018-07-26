@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+
+<h2 data-bind="text: pageTitle"></h2>
+
+<section>
+    <table data-bind="foreach: data">
+        <tr>
+            <td data-bind="text: label"></td>
+            <td><input data-bind="value: value" /></td>
+            <td><input type="button" data-bind="click: $parent.deleteData" value="Delete" /></td>
+        </tr>
+    </table>
+    <input type="button" data-bind="click: addData" value="Add" />
+</section>
+
+<pre data-bind="text: ko.toJSON($data, null, 2)"></pre>
+
+
+@section PageScripts{
+    @Scripts.Render("~/Scripts/vendor")
+    @Scripts.Render("~/Scripts/site")
+}
