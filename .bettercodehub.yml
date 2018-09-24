@@ -7,4 +7,6 @@ exclude:
 - .*/knockout-3.4.2.debug.js
 - .*/require.js
 - .*/require.min.js
+- .*/UnityMvcActivator.cs
+- .*/UnityConfig.cs
 - /JsJasmineTest\.Tests/Scripts/jasmine/.*
