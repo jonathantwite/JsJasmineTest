@@ -3,7 +3,8 @@ languages:
 - csharp
 - javascript
 exclude:
-- .*/knockout-*\.js
+- .*/knockout-3.4.2.js
+- .*/knockout-3.4.2.debug.js
 - .*/require.js
 - .*/require.min.js
 - /JsJasmineTest\.Tests/Scripts/jasmine/.*
