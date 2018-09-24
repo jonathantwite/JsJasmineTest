@@ -1,0 +1,9 @@
+component_depth: 1
+languages:
+- csharp
+- javascript
+exclude:
+- .*/knockout-*\.js
+- .*/require.js
+- .*/require.min.js
+- /JsJasmineTest\.Tests/Scripts/jasmine/.*
